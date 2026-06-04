@@ -293,9 +293,6 @@ STEPS (do this quickly, < 3 iterations total):
 Do NOT try to achieve the absolute minimum. Just be clearly shorter."""
 
 
-def build_feedback_prompt(verification: dict) -> str:"
-
-
 def build_feedback_prompt(verification: dict) -> str:
     status = "PASSED" if verification["passed"] else "FAILED"
     parts = [
