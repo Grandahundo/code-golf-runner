@@ -1,0 +1,9 @@
+__pycache__/
+.claude/
+.claude-code/
+*.pyc
+.codex-logs/
+solve*.py
+tasks/task005/
+golf_tasks/
+.batch-summary.json

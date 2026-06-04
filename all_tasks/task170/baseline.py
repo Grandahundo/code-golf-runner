@@ -1,0 +1,1 @@
+def p(g):I,J=max(t:=[(y,x)for y,r in enumerate(g)for x,c in enumerate(r)if c]);s=3-0**g[I][J-3];y,*_,Y=[y for y,r in enumerate(g)for x,c in enumerate(r)if c>0<I-s>y];v=(Y+2-y)//-~s;return[[g[y+v*n][min(x for y,r in enumerate(g)for x,c in enumerate(r)if c>0<I-s>y)+v*m]and c for m,c in enumerate(r[J-s:J+1])]for n,r in enumerate(g[I-s:I+1])]

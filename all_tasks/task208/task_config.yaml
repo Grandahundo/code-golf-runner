@@ -1,0 +1,15 @@
+# Task config for task208
+task_id: "task208"
+
+budget:
+  max_turns: 10
+  max_tokens: 300000
+  timeout_seconds: 1200
+  turn_timeout_seconds: 600
+  max_retries: 2
+
+sandbox_mode: "danger-full-access"
+
+verify:
+  command: "python verify.py"
+  early_stop: true

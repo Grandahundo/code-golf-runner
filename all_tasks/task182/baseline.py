@@ -1,0 +1,1 @@
+p=lambda g,k=-51,h=4:k*g or p([[v*(h:=h*2)and[max(V&7for r in g if((V:=(R:=r+[869,v]*2)[R.index(869)+3])^v)<8),v|h,*[p*(p%8==v%8)|v]*49,v//(v&v%8-v or 1)%197*8+v%8][k]for p,v in zip([0]+r,r)]for*r,in zip(*g[::-1])],k+1)
